@@ -72,10 +72,7 @@ Create a commit with a meaningful message:
 git commit -m "Initial commit: Added main project files"
 This saves the changes in Git’s history but does not push them to GitHub yet.
 
-4. Connect to a Remote Repository (If Not Already Connected)
-If your repository is not yet linked to GitHub, add the remote URL:
-git remote add origin https://github.com/your-username/repository-name.git
-5. Push the Commit to GitHub
+4. Push the Commit to GitHub
 Upload the commit to GitHub using:
 git push -u origin main
 The -u flag sets origin main as the default for future pushes.
